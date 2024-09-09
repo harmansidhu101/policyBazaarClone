@@ -1,0 +1,697 @@
+#titleimage{
+    width: 190px;
+}
+.container{
+    padding: 0px 25px;
+}
+.navbar{
+    background-color: white !important;
+}
+.navbar li:first-child{
+    margin-left: 40px;
+}
+.navbar a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+}
+.mydropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.mydropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    background-color: #fff;
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+  }
+  
+  .mydropdown-content a {
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+  }
+  
+  .mydropdown-content a:hover {background-color: #ddd; width: 100%;}
+  
+  .mydropdown:hover .mydropdown-content {display: block;}
+
+  .dropicon{
+      color: rgb(45, 116, 145);
+      font-weight: 900;
+  }
+  #linksdiv{
+      width: 81.5%;
+      /* background-color: #f1f1f1; */
+      background-color: #fff;
+      padding: 20px;
+      display: none;
+      position: fixed;
+      left: 127px;
+      z-index: 1;  
+    }
+  .card{
+      width: 7.5rem;
+      text-align: center;
+      display: inline-flex;
+      margin: 15px;
+      cursor: pointer;
+  }
+  .card2{
+      width: auto;
+      padding: 3px 10px;
+      margin-left: 0px;
+  }
+  .card2 .card-title{
+    font-size: 10.5px;
+  }
+  .card-body{
+      font-size: 14px;
+      border-radius: 10%;
+      padding-top: 8px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+  }
+  
+  .card-footer{
+    font-size: 10px;
+    padding: 0px;
+    color: #0065FF;
+    background: #EDF1F7;
+  }
+  #maindiv{
+    background: #182b4c;
+    margin-top: 3px;
+    padding-top: 80px;
+    padding-left: 9.5%;
+    padding-right: 9%;
+    padding-bottom: 2%;
+  }
+  #maindiv h6{
+    color: #0065FF;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  .card .card-text{
+    line-height: 15px;
+}
+  .card2 .card-text{
+      font-size: 13.4px;
+  }
+  #mainheading{
+      color: #fff;
+      font-size: 40px;
+      font-weight: 350;
+      margin-left: 15px;
+  }
+  #mainheading::first-line{
+      font-size: 35px;
+  }
+  #mainheading a{
+      font-weight: 500;
+  }
+  .mainsubheading{
+    margin-left: 15px;
+    color: #776BFD;
+    margin-bottom: 50px;
+    display: inline-block;
+    /* width: 200px; */
+  }
+.headingicon{
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #776BFD;
+}
+.headingicon2{
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #FF9B2C;;
+}
+#pbadvantage{
+  /* width: 78.5%;
+  margin-left: auto;
+  margin-right: auto; */
+  margin-top: 70px;
+}
+.progress{
+  background-color: white;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.progress-bar{
+  height: 5px;
+  border-radius: 0px;
+}
+.progress-bar{
+  width: 7em;
+}
+#pbadvantage p{
+  font-size: 17px;
+  width: 55%;
+}
+#specialcard{
+  margin-left: 15px;
+}
+#advantage-card-sec{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.advantage-card{
+  padding-left: 20px;
+  padding-top: 20px;
+  border: 1px solid gainsboro;
+  width: 12rem;
+  transition: 0.2s;
+}
+#pbadvantage .advantage-card p{
+  font-size: 13px;
+  width: 100%;
+}
+.advantage-card:hover{
+  border: 1px solid white;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px 10px #ddd8d8;
+  transform: scale(1.1);
+}
+.advantage-card img{
+  width: 80px;
+  height: 70px;
+}
+#get-app-sec{
+  /* width: 78.5%;
+  margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 150px; */
+  display: flex;
+  justify-content: space-between;
+}
+#get-app-sec span{
+  color: #5E6C84;
+  font-size: 18px;
+}
+#get-app-sec p{
+  margin-top: 20px;
+}
+#get-app-1 ul{
+  list-style-image: url('Image/star2.png');
+  margin-bottom: 30px;
+}
+#get-app-1{
+  width: 50%;
+}
+#get-app-1 img{
+  width: 150px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#get-app-2{
+  width: 50%;
+}
+#get-app-2 img{
+  width: 100%;
+}
+#main-get-app{
+  background: #f7f9ff; 
+  margin-top: 70px; 
+  padding-top: 90px; 
+  padding-bottom: 30px;
+}
+#myVideo {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  bottom: 0;
+  width: 700px; 
+  height: 400px;
+}
+#carousel-btn{
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+#carousel-btn a{
+  font-size: 25px;
+  margin: 5px;
+}
+#review-sec .carousel-item div{
+  display: inline-block;
+  box-shadow: 0px 0px 5px 5px #ddd8d8;
+  width: 21.2rem;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  height: 15rem;
+}
+#review-sec .carousel-item div p{
+  font-size: 14px;
+}
+.fa-quote-left{
+  margin-bottom: 20px;
+  color: #3688a1;
+}
+#review-sec{
+  margin-top: 70px;
+}
+#main-partner-sec{
+  margin-top: 100px;
+  /* background: #f4f6f6;   */
+  background: #f7f9ff;
+  padding-top: 90px; 
+  padding-bottom: 30px;
+}
+#partner-sec{
+  text-align: center;
+}
+#partner-sec p{
+  font-size: 18.5px;
+  color: rgba(42, 41, 41, 0.36);
+  font-weight: 400;
+}
+#partner-images{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#partner-images div{
+  height:5rem;
+  margin: 10px;
+  border-radius: 3px;
+  width: 7.5rem;
+  cursor: pointer;
+  border: 1px solid rgb(235, 232, 232);
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+#partner-sec img{
+  height: 100%;
+  width: 100%; 
+}
+#partner-images div:hover{
+  border: 1px solid rgb(224, 220, 220);
+  filter: grayscale(0%);
+}
+#investor-main-sec{
+  background: #F4F5F7;
+  padding-bottom: 20px;
+}
+.marq-img{
+  cursor: pointer;
+  width: 15rem;
+  height: 7rem;
+  margin-left: 100px;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+.marq-img:hover{
+  filter: grayscale(0%);
+}
+#question-sec{
+  display: flex;
+  justify-content: space-between;
+}
+#question-sec p{
+  margin-top: 20px;
+  font-size: 17px;
+}
+#get-app-1 .progress{
+  background: #fff;
+}
+#question-1{
+  width: 34%;
+}
+#question-2{
+  width: 45%;
+}
+#question-2 img{
+  margin-top: 100px;
+  width: 90%;
+}
+#main-question-sec{ 
+  margin-top: 80px; 
+  padding-top: 0px; 
+  padding-bottom: 30px;
+}
+.question-link{
+  display: flex;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 22rem;
+  border: 1px solid gray;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.question-link div:nth-child(2){
+  margin-left: 10px;
+}
+footer{
+  padding-top: 20px;
+  margin-top: 50px;
+  background-color: rgb(8, 8, 8);
+}
+.footer-link-div ul li{
+  margin-top: 15px;
+  text-align: left;
+}
+.footer-link-div h5{
+  text-align: left;
+  margin-top: 10px;
+}
+#footer-hlinks a{
+  margin-left: 10px;
+  letter-spacing: 0.10px;
+}
+#footer-hlinks i{
+  cursor: pointer;
+  transition: 0.6s;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 50%;
+}
+#footer-hlinks i:hover{
+  background-color: rgb(46, 46, 158);
+}
+#footer-hlinks i:last-child:hover{
+  background-color: brown;
+}
+#carousel-3{
+  background-color: #F4F5F7;
+  margin-top: 0px;
+  padding: 20px;
+}
+.carousel-last img{
+  cursor: pointer;
+  width: 20rem;
+  height: 7rem;
+}
+#linksdiv{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#car-3-btn-div{
+  margin-top: -50px;
+  text-align: center;
+}
+#car-3-btn-div a{
+  margin-left: 3px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #182b4c;
+}
+#car-3-btn-div a:hover{
+  color: #0065FF;
+}
+.carousel-last div{
+display: inline-flex;
+margin: 20px;
+justify-content: space-between;
+}
+.nav-link-div ul li a:hover{
+  text-decoration: underline;
+}
+.nav-link-div li{
+  margin-top: 10px;
+}
+#support-contact-icons{
+  cursor: default;
+}
+#support-contact-icons:hover{
+  background-color: white;
+}
+#support-contact-icons i{
+  width: 40px;
+  text-align: center;
+  margin-top: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 25px;
+  padding: 7px;
+  border: 1px solid gainsboro;
+}
+#sci-sec{
+  display: flex;
+  justify-content: space-between;
+}
+#support-contact-icons span{
+  text-align: center;
+  font-size: 11.1px;
+  margin-top: 4px;
+  line-height: 15px;
+  margin-left: 10px;
+  display: block;
+}
+#maindiv-car{
+  margin-top: 30px; 
+  margin-bottom: -30px;
+  display: none;
+}
+#main-praise-sec{ 
+  margin-top: 80px; 
+  padding-top: 0px; 
+  padding-bottom: 30px;
+}
+#praise-sec{
+  display: flex;
+  justify-content: space-between;
+}
+#praise-1{
+  width: 34%;
+}
+#praise-1 h2{
+  margin-top: 15%;
+  font-size: 33px;
+  line-height: 48px;
+  font-weight: 400;
+}
+#praise-2 p{
+  font-size: 14px;
+}
+#praise-1 h2 b{
+  font-weight: 600;
+}
+#praise-2{
+  width: 50%;
+}
+#praise-2 i{
+  font-size: 20px;
+  margin: 6px;
+}
+#praise-2 #emoji-para{
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.pb-praise-div{
+  padding: 10px;
+  box-shadow: 0px 0px 8px 3px #ddd8d8;
+  display: inline-block;
+  width: 14rem;
+  margin: 15px;
+}
+.pb-praise-div:nth-child(1){
+  border-left: 2.5px solid blue;
+}
+.pb-praise-div:nth-child(2){
+  border-left: 2.5px solid rgb(74, 145, 173);
+}
+.pb-praise-div:nth-child(3){
+  border-left: 2.5px solid rgb(64, 155, 64);
+  margin-left: 35px;
+}
+.pb-praise-div:nth-child(4){
+  border-left: 2.5px solid rgb(171, 194, 43);
+}
+
+
+@media (max-width:900px){
+  #pbadvantage p{
+    width: 100%;
+  }
+  .card{
+    width: 7rem;
+    border: none;
+    margin: 8px;
+    margin-top: 40px;
+  }
+  .card-body{
+      font-size: 11px;
+      padding-top: 8px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+  }
+  .card-footer{
+    font-size: 9px;
+    padding: 0px;
+    color: #0065FF;
+    background: #EDF1F7;
+  }
+  #maindiv{
+    background: #fff;
+    margin-top: 3px;
+    padding-top: 0px;
+    padding-left: 4%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+  }
+  #maindiv h6{
+    color: #0065FF;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  .card .card-text{
+    line-height: 13px;
+}
+.card2{
+  margin-left: 0px;
+  border: 1px solid gainsboro;
+}
+  .card2 .card-text{
+      font-size: 12px;
+  }
+  #mainheading{
+     display: none;
+  }
+  .mainsubheading{
+    display: none;
+  }
+.headingicon{
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #776BFD;
+}
+.headingicon2{
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #FF9B2C;;
+}
+#maindiv-car{
+  display: block;
+}
+}
+
+@media (max-width:1000px) {
+  .mydropdown-content{
+    display: none;
+  }
+  .dropicon{
+    display: none;
+  }
+  #renew-drop,#support-drop{
+    display: none;
+  }
+  #signin-btn{
+    float: right;
+    margin-top: -35px;
+    /* position: absolute; */
+  }
+  .navbar li{
+    padding: 0px;
+    display: block;
+  }
+  .navbar li:first-child{
+    margin-left: 0px !important;
+  }
+  .navbar li:nth-child(2){
+    margin-bottom: 8px;
+  }
+  #nav-last-link{
+    margin-left: 0px !important;
+    margin-top: 12px;
+    padding: 0px;
+    /* display: none; */
+  }
+  #advantage-card-sec{
+    margin-top: 30px;
+    display: block;
+  }
+  #linksdiv{
+    height: 0px;
+    padding: 0px;
+    width: 0px;
+  }
+  #linksdiv section{
+    display: none;
+  }
+  .advantage-card{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .advantage-card:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    transform: scale(1);
+  }
+  #get-app-sec{
+    display: block;
+  }
+  #get-app-1{
+    width: 100%;
+  }
+  #get-app-2{
+    display: none;
+  }
+  #question-1{
+    width: 90%;
+  }
+  #question-2{
+    display: none;
+  }
+}
+
+@media (max-width:1150px) {
+  #praise-1{
+    width: 100%;
+    text-align: center;
+  }
+  #praise-2{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+  #praise-sec{
+    display: block;
+  }
+  
+}
+
+@media (max-width:1200px) {
+  .pb-praise-div:nth-child(3){
+    border-left: 2.5px solid rgb(64, 155, 64);
+    margin-left: 15px;
+  }
+  #myVideo{
+    display: none;
+  }
+  .navbar li:first-child{
+    margin-left: 10px;
+}
+}
+
+@media (max-width:1300px) {
+  .advantage-card:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    transform: scale(1);
+  }
+}
+
+@media (max-width:1345px){
+  #specialcard{
+    margin-left: 0px;
+  }
+}
